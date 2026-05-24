@@ -397,7 +397,7 @@ async def support(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
         "📞 *پشتیبانی*\n\n"
         "برای ارتباط با پشتیبانی:\n"
-        "📱 واتساپ: 09xxxxxxxxx\n"
+        "📱 واتساپ: 09129343072\n"
         "💬 تلگرام: @your_support\n"
         "🕐 ساعات پاسخگویی: ۹ صبح تا ۹ شب",
         parse_mode="Markdown"
