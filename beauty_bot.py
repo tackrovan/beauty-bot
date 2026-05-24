@@ -16,9 +16,9 @@ from telegram.ext import (
 )
 
 # ==================== تنظیمات ====================
-BOT_TOKEN = "8887060569:AAFQ9Cl51B_2TxSjJbPIRGx6iCxBZvxW85g"
-ADMIN_ID = 88831711
-
+import os
+BOT_TOKEN = os.environ.get("8887060569:AAFQ9Cl51B_2TxSjJbPIRGx6iCxBZvxW85g")
+ADMIN_ID = int(os.environ.get("88831711"))
 # ==================== محصولات ====================
 # محصولات خود را اینجا تعریف کنید
 PRODUCTS = {
