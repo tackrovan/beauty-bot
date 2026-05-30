@@ -1,0 +1,18 @@
+# فایل‌های حساس - هرگز آپلود نشوند
+.env
+
+# فایل‌های Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# فایل‌های محیط مجازی
+venv/
+env/
+.venv/
+
+# فایل‌های سیستم
+.DS_Store
+Thumbs.db
